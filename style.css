@@ -66,6 +66,33 @@ nav ul li {
   height: 100%;
 }
 
+/* Content Styles */
+
+.content {
+  margin-top: 5px;
+  padding: 20px 0 20px 0;
+  border-top: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  width: 100%;
+}
+
+.contentContainer {
+  width: 50%;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.newsImgContainer img {
+  border: solid 1px #cccccc;
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 750px) {
   body {
     font-family: 'Roboto', sans-serif;
