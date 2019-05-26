@@ -94,6 +94,10 @@ nav ul li {
   margin-bottom: 10px;
 }
 
+.newsImgContainer p {
+  min-width: 70%;
+}
+
 .designContainer img {
   max-width: 100%;
 }
@@ -127,6 +131,12 @@ nav ul li {
 
 .contentImgContainer img {
   width: 6%;
+}
+
+@media only screen and (max-width: 1500px) {
+  .content {
+    grid-template-columns: auto 50% auto;
+  }
 }
 
 @media only screen and (max-width: 750px) {
