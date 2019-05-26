@@ -77,10 +77,11 @@ nav ul li {
   grid-template-columns: auto auto auto;
   justify-items: center;
   width: 100%;
+  line-height: 1.6;
 }
 
 .contentContainer {
-  width: 50%;
+  width: 65%;
 }
 
 .title {
@@ -91,6 +92,41 @@ nav ul li {
 .newsImgContainer img {
   border: solid 1px #cccccc;
   margin-bottom: 10px;
+}
+
+.designContainer img {
+  max-width: 100%;
+}
+
+.socialTitleContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.socialTitleContainer img {
+  width: 15%;
+}
+
+.socialImgContainer img {
+  max-width: 90%;
+}
+
+.fbContainer {
+  padding: 10px 0 10px;
+}
+
+.mrrWheelsContainer {
+  border-top: solid 1px #cccccc;
+  padding-top: 20px;
+}
+
+.contentImgContainer {
+  display: inline;
+}
+
+.contentImgContainer img {
+  width: 6%;
 }
 
 @media only screen and (max-width: 750px) {
