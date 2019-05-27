@@ -92,6 +92,7 @@ nav ul li {
 .newsImgContainer img {
   border: solid 1px #cccccc;
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
 .newsImgContainer p {
@@ -131,6 +132,32 @@ nav ul li {
 
 .contentImgContainer img {
   width: 6%;
+}
+
+/* Footer Styles */
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+footer ul {
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+footer div {
+  padding-top: 15px;
+  padding-bottom: 5%;
+  margin-left: 10%;
+}
+
+.footerLi {
+  border-right: 1px solid #cccccc;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -220,6 +247,20 @@ nav ul li {
     width: 100%;
     height: 100%;
     justify-self: center;
+  }
+
+  /* Content Styles */
+  .content {
+    width: 100%;
+    grid-template-columns: auto;
+  }
+
+  .content div {
+    width: 70%;
+  }
+
+  footer {
+    font-size: 10px;
   }
 }
 
